@@ -1,0 +1,27 @@
+# NASA Photo Gallery App (APOD)
+
+## Overview
+iOS app that displays NASA’s Astronomy Picture of the Day using NASA’s public API.
+
+## Features
+- Fetch APOD by date
+- Image & video support
+- Full-screen image viewer with zoom
+- Error handling & loading states
+- Dark Mode support (if implemented)
+
+## Tech Stack
+- Swift
+- UIKit / SwiftUI
+- URLSession
+- MVVM (or whatever you used)
+
+## Setup
+1. Clone the repo
+2. Open `.xcodeproj` or `.xcworkspace`
+3. Add your NASA API key in:
+   - `Constants.swift` (or wherever)
+4. Run on iOS Simulator or device
+
+## API
+https://api.nasa.gov/planetary/apod
